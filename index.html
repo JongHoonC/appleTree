@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>사과 나무 게임</title>
+  </head>
+  <body>
+    <div id="container">
+      <img style="-webkit-user-drag: none" src="img/사과.png" alt="" />
+      <h1>사과 나무 게임</h1>
+      <p>주어진 시간 내에 많은 사과를 수확하자</p>
+      <div class="btn">
+        <button class="gameBtn">EASY</button>
+        <button class="gameBtn">NORMAL</button>
+        <button class="gameBtn">HARD</button>
+      </div>
+    </div>
+    <div id="gameArea">
+      <div class="text">
+        <div class="time">
+          <p class="countUp">플레이시간 :</p>
+          <p class="countDown">남은시간 :</p>
+        </div>
+        <p class="countApple">수확한 사과 수 :</p>
+        <p class="treeApple">나무에 열린 사과 수 :</p>
+      </div>
+      <div id="tree"></div>
+    </div>
+    <div id="endPlay">
+      <img style="-webkit-user-drag: none" src="img/사과.png" alt="" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
